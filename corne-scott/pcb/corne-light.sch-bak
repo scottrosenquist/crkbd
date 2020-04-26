@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:corne-light-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L corne-light-rescue:ProMicro-kbd U1
+L kbd:ProMicro U1
 U 1 1 5A5E14C2
 P 6225 1625
 F 0 "U1" H 6225 2575 60  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "" H 6325 575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW2
+L kbd:SW_PUSH SW2
 U 1 1 5A5E2699
 P 1625 950
 F 0 "SW2" H 1775 1060 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "" H 1925 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW3
+L kbd:SW_PUSH SW3
 U 1 1 5A5E27F9
 P 2325 950
 F 0 "SW3" H 2475 1060 50  0000 C CNN
@@ -69,7 +70,7 @@ F 3 "" H 2625 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW4
+L kbd:SW_PUSH SW4
 U 1 1 5A5E2908
 P 3025 950
 F 0 "SW4" H 3175 1060 50  0000 C CNN
@@ -80,7 +81,7 @@ F 3 "" H 3025 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW5
+L kbd:SW_PUSH SW5
 U 1 1 5A5E2933
 P 3725 950
 F 0 "SW5" H 3875 1060 50  0000 C CNN
@@ -91,7 +92,7 @@ F 3 "" H 3725 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW6
+L kbd:SW_PUSH SW6
 U 1 1 5A5E295E
 P 4425 950
 F 0 "SW6" H 4575 1060 50  0000 C CNN
@@ -135,7 +136,29 @@ F 3 "" H 4725 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW8
+L kbd:SW_PUSH SW1
+U 1 1 5A5E2B19
+P 925 950
+F 0 "SW1" H 1075 1060 50  0000 C CNN
+F 1 "SW_PUSH" H 925 870 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 925 950 50  0001 C CNN
+F 3 "" H 925 950 50  0000 C CNN
+	1    925  950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5A5E2B5B
+P 1225 1100
+F 0 "D1" H 1225 1200 50  0000 C CNN
+F 1 "D" H 1225 1000 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1225 1100 50  0001 C CNN
+F 3 "" H 1225 1100 50  0001 C CNN
+	1    1225 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
 U 1 1 5A5E2D26
 P 1625 1550
 F 0 "SW8" H 1775 1660 50  0000 C CNN
@@ -157,7 +180,7 @@ F 3 "" H 1925 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW9
+L kbd:SW_PUSH SW9
 U 1 1 5A5E2D32
 P 2325 1550
 F 0 "SW9" H 2475 1660 50  0000 C CNN
@@ -179,7 +202,7 @@ F 3 "" H 2625 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW10
+L kbd:SW_PUSH SW10
 U 1 1 5A5E2D3E
 P 3025 1550
 F 0 "SW10" H 3175 1660 50  0000 C CNN
@@ -190,7 +213,7 @@ F 3 "" H 3025 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW11
+L kbd:SW_PUSH SW11
 U 1 1 5A5E2D44
 P 3725 1550
 F 0 "SW11" H 3875 1660 50  0000 C CNN
@@ -201,7 +224,7 @@ F 3 "" H 3725 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW12
+L kbd:SW_PUSH SW12
 U 1 1 5A5E2D4A
 P 4425 1550
 F 0 "SW12" H 4575 1660 50  0000 C CNN
@@ -245,7 +268,29 @@ F 3 "" H 4725 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW14
+L kbd:SW_PUSH SW7
+U 1 1 5A5E2D6E
+P 925 1550
+F 0 "SW7" H 1075 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 925 1470 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 925 1550 50  0001 C CNN
+F 3 "" H 925 1550 50  0000 C CNN
+	1    925  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5A5E2D74
+P 1225 1700
+F 0 "D7" H 1225 1800 50  0000 C CNN
+F 1 "D" H 1225 1600 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1225 1700 50  0001 C CNN
+F 3 "" H 1225 1700 50  0001 C CNN
+	1    1225 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
 U 1 1 5A5E35B1
 P 1625 2150
 F 0 "SW14" H 1775 2260 50  0000 C CNN
@@ -267,7 +312,7 @@ F 3 "" H 1925 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW15
+L kbd:SW_PUSH SW15
 U 1 1 5A5E35BD
 P 2325 2150
 F 0 "SW15" H 2475 2260 50  0000 C CNN
@@ -289,7 +334,7 @@ F 3 "" H 2625 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW16
+L kbd:SW_PUSH SW16
 U 1 1 5A5E35C9
 P 3025 2150
 F 0 "SW16" H 3175 2260 50  0000 C CNN
@@ -300,7 +345,7 @@ F 3 "" H 3025 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW17
+L kbd:SW_PUSH SW17
 U 1 1 5A5E35CF
 P 3725 2150
 F 0 "SW17" H 3875 2260 50  0000 C CNN
@@ -311,7 +356,7 @@ F 3 "" H 3725 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW18
+L kbd:SW_PUSH SW18
 U 1 1 5A5E35D5
 P 4425 2150
 F 0 "SW18" H 4575 2260 50  0000 C CNN
@@ -355,7 +400,29 @@ F 3 "" H 4725 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW20
+L kbd:SW_PUSH SW13
+U 1 1 5A5E35F9
+P 925 2150
+F 0 "SW13" H 1075 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 925 2070 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 925 2150 50  0001 C CNN
+F 3 "" H 925 2150 50  0000 C CNN
+	1    925  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5A5E35FF
+P 1225 2300
+F 0 "D13" H 1225 2400 50  0000 C CNN
+F 1 "D" H 1225 2200 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1225 2300 50  0001 C CNN
+F 3 "" H 1225 2300 50  0001 C CNN
+	1    1225 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
 U 1 1 5A5E37A4
 P 3725 2750
 F 0 "SW20" H 3875 2860 50  0000 C CNN
@@ -377,7 +444,7 @@ F 3 "" H 4025 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW21
+L kbd:SW_PUSH SW21
 U 1 1 5A5E37B0
 P 4425 2750
 F 0 "SW21" H 4575 2860 50  0000 C CNN
@@ -399,7 +466,7 @@ F 3 "" H 4725 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW19
+L kbd:SW_PUSH SW19
 U 1 1 5A5E37EC
 P 3025 2750
 F 0 "SW19" H 3175 2860 50  0000 C CNN
@@ -422,6 +489,8 @@ F 3 "" H 3325 2900 50  0001 C CNN
 $EndComp
 Text GLabel 1325 800  1    60   Input ~ 0
 col1
+Text GLabel 625  800  1    60   Input ~ 0
+col0
 Text GLabel 2025 800  1    60   Input ~ 0
 col2
 Text GLabel 2725 800  1    60   Input ~ 0
@@ -523,7 +592,7 @@ row1
 Text GLabel 5525 1475 0    47   Input ~ 0
 row0
 $Comp
-L corne-light-rescue:SW_PUSH-kbd RSW1
+L kbd:SW_PUSH RSW1
 U 1 1 5A5EB9E2
 P 8625 825
 F 0 "RSW1" H 8775 935 50  0000 C CNN
@@ -625,7 +694,7 @@ F 3 "" H 7125 1175 50  0001 C CNN
 $EndComp
 NoConn ~ 6925 875 
 $Comp
-L corne-light-rescue:MJ-4PP-9-kbd J1
+L kbd:MJ-4PP-9 J1
 U 1 1 5ACD605D
 P 8125 1700
 F 0 "J1" H 8125 1850 50  0000 C CNN
@@ -638,20 +707,29 @@ $EndComp
 Connection ~ 3325 3050
 Connection ~ 4025 3050
 Wire Wire Line
+	1075 2450 1225 2450
+Wire Wire Line
+	1075 1850 1225 1850
+Wire Wire Line
+	1075 1250 1225 1250
+Wire Wire Line
 	5425 1075 5425 1175
 Connection ~ 5425 1175
 Wire Wire Line
 	5525 1075 5425 1075
 Wire Wire Line
 	5325 1175 5425 1175
+Connection ~ 1225 2450
 Connection ~ 1925 2450
 Connection ~ 2625 2450
 Connection ~ 3325 2450
 Connection ~ 4025 2450
+Connection ~ 1225 1850
 Connection ~ 1925 1850
 Connection ~ 2625 1850
 Connection ~ 3325 1850
 Connection ~ 4025 1850
+Connection ~ 1225 1250
 Connection ~ 1925 1250
 Connection ~ 2625 1250
 Connection ~ 3325 1250
@@ -677,6 +755,8 @@ Wire Wire Line
 Wire Wire Line
 	5425 1175 5525 1175
 Wire Wire Line
+	1225 2450 1925 2450
+Wire Wire Line
 	1925 2450 2625 2450
 Wire Wire Line
 	2625 2450 3325 2450
@@ -685,6 +765,8 @@ Wire Wire Line
 Wire Wire Line
 	4025 2450 4725 2450
 Wire Wire Line
+	1225 1850 1925 1850
+Wire Wire Line
 	1925 1850 2625 1850
 Wire Wire Line
 	2625 1850 3325 1850
@@ -692,6 +774,8 @@ Wire Wire Line
 	3325 1850 4025 1850
 Wire Wire Line
 	4025 1850 4725 1850
+Wire Wire Line
+	1225 1250 1925 1250
 Wire Wire Line
 	1925 1250 2625 1250
 Wire Wire Line
@@ -703,6 +787,8 @@ Wire Wire Line
 Wire Wire Line
 	3150 3050 3325 3050
 Wire Wire Line
+	625  800  625  950 
+Wire Wire Line
 	1325 800  1325 950 
 Wire Wire Line
 	2025 800  2025 950 
@@ -712,6 +798,12 @@ Wire Wire Line
 	3425 800  3425 950 
 Wire Wire Line
 	2725 800  2725 950 
+Connection ~ 625  950 
+Wire Wire Line
+	625  950  625  1550
+Connection ~ 625  1550
+Wire Wire Line
+	625  1550 625  2150
 Connection ~ 1325 950 
 Wire Wire Line
 	1325 950  1325 1550
@@ -752,7 +844,7 @@ Connection ~ 4125 2150
 Wire Wire Line
 	4125 2150 4125 2750
 $Comp
-L corne-light-rescue:ProMicro-kbd U2
+L kbd:ProMicro U2
 U 1 1 5C25F857
 P 6225 4500
 F 0 "U2" H 6225 5450 60  0000 C CNN
@@ -763,7 +855,7 @@ F 3 "" H 6325 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW23
+L kbd:SW_PUSH SW23
 U 1 1 5C25F85D
 P 1650 4200
 F 0 "SW23" H 1800 4310 50  0000 C CNN
@@ -785,7 +877,7 @@ F 3 "" H 1950 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW24
+L kbd:SW_PUSH SW24
 U 1 1 5C25F869
 P 2350 4200
 F 0 "SW24" H 2500 4310 50  0000 C CNN
@@ -807,7 +899,7 @@ F 3 "" H 2650 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW25
+L kbd:SW_PUSH SW25
 U 1 1 5C25F875
 P 3050 4200
 F 0 "SW25" H 3200 4310 50  0000 C CNN
@@ -818,7 +910,7 @@ F 3 "" H 3050 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW26
+L kbd:SW_PUSH SW26
 U 1 1 5C25F87B
 P 3750 4200
 F 0 "SW26" H 3900 4310 50  0000 C CNN
@@ -829,7 +921,7 @@ F 3 "" H 3750 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW27
+L kbd:SW_PUSH SW27
 U 1 1 5C25F881
 P 4450 4200
 F 0 "SW27" H 4600 4310 50  0000 C CNN
@@ -873,7 +965,29 @@ F 3 "" H 4750 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW29
+L kbd:SW_PUSH SW22
+U 1 1 5C25F899
+P 950 4200
+F 0 "SW22" H 1100 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 950 4120 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 950 4200 50  0001 C CNN
+F 3 "" H 950 4200 50  0000 C CNN
+	1    950  4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5C25F89F
+P 1250 4350
+F 0 "D22" H 1250 4450 50  0000 C CNN
+F 1 "D" H 1250 4250 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1250 4350 50  0001 C CNN
+F 3 "" H 1250 4350 50  0001 C CNN
+	1    1250 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW29
 U 1 1 5C25F8A5
 P 1650 4800
 F 0 "SW29" H 1800 4910 50  0000 C CNN
@@ -895,7 +1009,7 @@ F 3 "" H 1950 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW30
+L kbd:SW_PUSH SW30
 U 1 1 5C25F8B1
 P 2350 4800
 F 0 "SW30" H 2500 4910 50  0000 C CNN
@@ -917,7 +1031,7 @@ F 3 "" H 2650 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW31
+L kbd:SW_PUSH SW31
 U 1 1 5C25F8BD
 P 3050 4800
 F 0 "SW31" H 3200 4910 50  0000 C CNN
@@ -928,7 +1042,7 @@ F 3 "" H 3050 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW32
+L kbd:SW_PUSH SW32
 U 1 1 5C25F8C3
 P 3750 4800
 F 0 "SW32" H 3900 4910 50  0000 C CNN
@@ -939,7 +1053,7 @@ F 3 "" H 3750 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW33
+L kbd:SW_PUSH SW33
 U 1 1 5C25F8C9
 P 4450 4800
 F 0 "SW33" H 4600 4910 50  0000 C CNN
@@ -983,7 +1097,29 @@ F 3 "" H 4750 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW35
+L kbd:SW_PUSH SW28
+U 1 1 5C25F8E1
+P 950 4800
+F 0 "SW28" H 1100 4910 50  0000 C CNN
+F 1 "SW_PUSH" H 950 4720 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 950 4800 50  0001 C CNN
+F 3 "" H 950 4800 50  0000 C CNN
+	1    950  4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5C25F8E7
+P 1250 4950
+F 0 "D28" H 1250 5050 50  0000 C CNN
+F 1 "D" H 1250 4850 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1250 4950 50  0001 C CNN
+F 3 "" H 1250 4950 50  0001 C CNN
+	1    1250 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
 U 1 1 5C25F8ED
 P 1650 5400
 F 0 "SW35" H 1800 5510 50  0000 C CNN
@@ -1005,7 +1141,7 @@ F 3 "" H 1950 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW36
+L kbd:SW_PUSH SW36
 U 1 1 5C25F8F9
 P 2350 5400
 F 0 "SW36" H 2500 5510 50  0000 C CNN
@@ -1027,7 +1163,7 @@ F 3 "" H 2650 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW37
+L kbd:SW_PUSH SW37
 U 1 1 5C25F905
 P 3050 5400
 F 0 "SW37" H 3200 5510 50  0000 C CNN
@@ -1038,7 +1174,7 @@ F 3 "" H 3050 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW38
+L kbd:SW_PUSH SW38
 U 1 1 5C25F90B
 P 3750 5400
 F 0 "SW38" H 3900 5510 50  0000 C CNN
@@ -1049,7 +1185,7 @@ F 3 "" H 3750 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW39
+L kbd:SW_PUSH SW39
 U 1 1 5C25F911
 P 4450 5400
 F 0 "SW39" H 4600 5510 50  0000 C CNN
@@ -1093,7 +1229,29 @@ F 3 "" H 4750 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW41
+L kbd:SW_PUSH SW34
+U 1 1 5C25F929
+P 950 5400
+F 0 "SW34" H 1100 5510 50  0000 C CNN
+F 1 "SW_PUSH" H 950 5320 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 950 5400 50  0001 C CNN
+F 3 "" H 950 5400 50  0000 C CNN
+	1    950  5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5C25F92F
+P 1250 5550
+F 0 "D34" H 1250 5650 50  0000 C CNN
+F 1 "D" H 1250 5450 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1250 5550 50  0001 C CNN
+F 3 "" H 1250 5550 50  0001 C CNN
+	1    1250 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW41
 U 1 1 5C25F935
 P 3750 6000
 F 0 "SW41" H 3900 6110 50  0000 C CNN
@@ -1115,7 +1273,7 @@ F 3 "" H 4050 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW42
+L kbd:SW_PUSH SW42
 U 1 1 5C25F941
 P 4450 6000
 F 0 "SW42" H 4600 6110 50  0000 C CNN
@@ -1137,7 +1295,7 @@ F 3 "" H 4750 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L corne-light-rescue:SW_PUSH-kbd SW40
+L kbd:SW_PUSH SW40
 U 1 1 5C25F94D
 P 3050 6000
 F 0 "SW40" H 3200 6110 50  0000 C CNN
@@ -1160,6 +1318,8 @@ F 3 "" H 3350 6150 50  0001 C CNN
 $EndComp
 Text GLabel 1350 4050 1    60   Input ~ 0
 col1_r
+Text GLabel 650  4050 1    60   Input ~ 0
+col0_r
 Text GLabel 2050 4050 1    60   Input ~ 0
 col2_r
 Text GLabel 2750 4050 1    60   Input ~ 0
@@ -1217,7 +1377,7 @@ row1_r
 Text GLabel 5525 4350 0    47   Input ~ 0
 row0_r
 $Comp
-L corne-light-rescue:SW_PUSH-kbd RSW2
+L kbd:SW_PUSH RSW2
 U 1 1 5C25F978
 P 8650 4075
 F 0 "RSW2" H 8800 4185 50  0000 C CNN
@@ -1297,7 +1457,7 @@ Text GLabel 5600 5375 2    47   Input ~ 0
 SDA_r
 NoConn ~ 6925 3750
 $Comp
-L corne-light-rescue:MJ-4PP-9-kbd J6
+L kbd:MJ-4PP-9 J6
 U 1 1 5C25FA15
 P 8150 4950
 F 0 "J6" H 8150 5100 50  0000 C CNN
@@ -1310,20 +1470,29 @@ $EndComp
 Connection ~ 3350 6300
 Connection ~ 4050 6300
 Wire Wire Line
+	1100 5700 1250 5700
+Wire Wire Line
+	1100 5100 1250 5100
+Wire Wire Line
+	1100 4500 1250 4500
+Wire Wire Line
 	5425 3950 5425 4050
 Connection ~ 5425 4050
 Wire Wire Line
 	5525 3950 5425 3950
 Wire Wire Line
 	5325 4050 5425 4050
+Connection ~ 1250 5700
 Connection ~ 1950 5700
 Connection ~ 2650 5700
 Connection ~ 3350 5700
 Connection ~ 4050 5700
+Connection ~ 1250 5100
 Connection ~ 1950 5100
 Connection ~ 2650 5100
 Connection ~ 3350 5100
 Connection ~ 4050 5100
+Connection ~ 1250 4500
 Connection ~ 1950 4500
 Connection ~ 2650 4500
 Connection ~ 3350 4500
@@ -1349,6 +1518,8 @@ Wire Wire Line
 Wire Wire Line
 	5425 4050 5525 4050
 Wire Wire Line
+	1250 5700 1950 5700
+Wire Wire Line
 	1950 5700 2650 5700
 Wire Wire Line
 	2650 5700 3350 5700
@@ -1357,6 +1528,8 @@ Wire Wire Line
 Wire Wire Line
 	4050 5700 4750 5700
 Wire Wire Line
+	1250 5100 1950 5100
+Wire Wire Line
 	1950 5100 2650 5100
 Wire Wire Line
 	2650 5100 3350 5100
@@ -1364,6 +1537,8 @@ Wire Wire Line
 	3350 5100 4050 5100
 Wire Wire Line
 	4050 5100 4750 5100
+Wire Wire Line
+	1250 4500 1950 4500
 Wire Wire Line
 	1950 4500 2650 4500
 Wire Wire Line
@@ -1375,6 +1550,8 @@ Wire Wire Line
 Wire Wire Line
 	3175 6300 3350 6300
 Wire Wire Line
+	650  4050 650  4200
+Wire Wire Line
 	1350 4050 1350 4200
 Wire Wire Line
 	2050 4050 2050 4200
@@ -1384,6 +1561,12 @@ Wire Wire Line
 	3450 4050 3450 4200
 Wire Wire Line
 	2750 4050 2750 4200
+Connection ~ 650  4200
+Wire Wire Line
+	650  4200 650  4800
+Connection ~ 650  4800
+Wire Wire Line
+	650  4800 650  5400
 Connection ~ 1350 4200
 Wire Wire Line
 	1350 4200 1350 4800
@@ -1504,10 +1687,10 @@ F 3 "" H 10950 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0108
+L power:GNDA #PWR?
 U 1 1 5C754593
 P 10575 3475
-F 0 "#PWR0108" H 10575 3225 50  0001 C CNN
+F 0 "#PWR?" H 10575 3225 50  0001 C CNN
 F 1 "GNDA" H 10575 3325 50  0000 C CNN
 F 2 "" H 10575 3475 50  0001 C CNN
 F 3 "" H 10575 3475 50  0001 C CNN
@@ -1515,26 +1698,14 @@ F 3 "" H 10575 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG?
 U 1 1 5C754599
 P 10575 3475
-F 0 "#FLG0102" H 10575 3550 50  0001 C CNN
+F 0 "#FLG?" H 10575 3550 50  0001 C CNN
 F 1 "PWR_FLAG" H 10575 3625 50  0000 C CNN
 F 2 "" H 10575 3475 50  0001 C CNN
 F 3 "" H 10575 3475 50  0001 C CNN
 	1    10575 3475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1075 2450 1925 2450
-Wire Wire Line
-	1075 1850 1925 1850
-Wire Wire Line
-	1075 1250 1925 1250
-Wire Wire Line
-	1100 4500 1950 4500
-Wire Wire Line
-	1100 5100 1950 5100
-Wire Wire Line
-	1100 5700 1950 5700
 $EndSCHEMATC
