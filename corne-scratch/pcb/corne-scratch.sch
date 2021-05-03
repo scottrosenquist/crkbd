@@ -1,0 +1,1121 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:ProMicro U1
+U 1 1 5EB9E766
+P 3775 7050
+F 0 "U1" H 3775 8087 60  0000 C CNN
+F 1 "ProMicro" H 3775 7981 60  0000 C CNN
+F 2 "kbd:ProMicro_v3.5" H 3875 6000 60  0000 C CNN
+F 3 "" H 3875 6000 60  0000 C CNN
+	1    3775 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 5EBA1A11
+P 1100 1025
+F 0 "MX1" H 1133 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 1133 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 475 1000 60  0001 C CNN
+F 3 "" H 475 1000 60  0001 C CNN
+	1    1100 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5EBA2C34
+P 1050 1275
+F 0 "D1" V 1050 1207 50  0000 R CNN
+F 1 "D_Small" V 1005 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1050 1275 50  0001 C CNN
+F 3 "~" V 1050 1275 50  0001 C CNN
+	1    1050 1275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1300 750  1    50   Input ~ 0
+col0
+Text GLabel 925  1375 0    50   Input ~ 0
+row0
+Wire Wire Line
+	925  1375 1050 1375
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 5EBA3C8F
+P 1100 1700
+F 0 "MX2" H 1133 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 1133 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 475 1675 60  0001 C CNN
+F 3 "" H 475 1675 60  0001 C CNN
+	1    1100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5EBA3C99
+P 1050 1950
+F 0 "D2" V 1050 1882 50  0000 R CNN
+F 1 "D_Small" V 1005 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1050 1950 50  0001 C CNN
+F 3 "~" V 1050 1950 50  0001 C CNN
+	1    1050 1950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 925  2050 0    50   Input ~ 0
+row1
+Wire Wire Line
+	925  2050 1050 2050
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 5EBA7138
+P 1100 2375
+F 0 "MX3" H 1133 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 1133 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 475 2350 60  0001 C CNN
+F 3 "" H 475 2350 60  0001 C CNN
+	1    1100 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5EBA7142
+P 1050 2625
+F 0 "D3" V 1050 2557 50  0000 R CNN
+F 1 "D_Small" V 1005 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1050 2625 50  0001 C CNN
+F 3 "~" V 1050 2625 50  0001 C CNN
+	1    1050 2625
+	0    -1   -1   0   
+$EndComp
+Text GLabel 925  2725 0    50   Input ~ 0
+row2
+Wire Wire Line
+	925  2725 1050 2725
+Wire Wire Line
+	1300 750  1300 975 
+Wire Wire Line
+	1250 2325 1300 2325
+Wire Wire Line
+	1250 1650 1300 1650
+Connection ~ 1300 1650
+Wire Wire Line
+	1300 1650 1300 2325
+Wire Wire Line
+	1250 975  1300 975 
+Connection ~ 1300 975 
+Wire Wire Line
+	1300 975  1300 1650
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 5EBE0D1C
+P 1475 1025
+F 0 "MX4" H 1508 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 1508 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 850 1000 60  0001 C CNN
+F 3 "" H 850 1000 60  0001 C CNN
+	1    1475 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5EBE0D26
+P 1425 1275
+F 0 "D4" V 1425 1207 50  0000 R CNN
+F 1 "D_Small" V 1380 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1425 1275 50  0001 C CNN
+F 3 "~" V 1425 1275 50  0001 C CNN
+	1    1425 1275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1675 750  1    50   Input ~ 0
+col1
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 5EBE0D31
+P 1475 1700
+F 0 "MX5" H 1508 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 1508 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 850 1675 60  0001 C CNN
+F 3 "" H 850 1675 60  0001 C CNN
+	1    1475 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5EBE0D3B
+P 1425 1950
+F 0 "D5" V 1425 1882 50  0000 R CNN
+F 1 "D_Small" V 1380 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1425 1950 50  0001 C CNN
+F 3 "~" V 1425 1950 50  0001 C CNN
+	1    1425 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 5EBE0D45
+P 1475 2375
+F 0 "MX6" H 1508 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 1508 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 850 2350 60  0001 C CNN
+F 3 "" H 850 2350 60  0001 C CNN
+	1    1475 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5EBE0D4F
+P 1425 2625
+F 0 "D6" V 1425 2557 50  0000 R CNN
+F 1 "D_Small" V 1380 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1425 2625 50  0001 C CNN
+F 3 "~" V 1425 2625 50  0001 C CNN
+	1    1425 2625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1675 750  1675 975 
+Wire Wire Line
+	1625 2325 1675 2325
+Wire Wire Line
+	1625 1650 1675 1650
+Connection ~ 1675 1650
+Wire Wire Line
+	1675 1650 1675 2325
+Wire Wire Line
+	1625 975  1675 975 
+Connection ~ 1675 975 
+Wire Wire Line
+	1675 975  1675 1650
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 5EBE703A
+P 1850 1025
+F 0 "MX7" H 1883 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 1883 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1225 1000 60  0001 C CNN
+F 3 "" H 1225 1000 60  0001 C CNN
+	1    1850 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5EBE7044
+P 1800 1275
+F 0 "D7" V 1800 1207 50  0000 R CNN
+F 1 "D_Small" V 1755 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1800 1275 50  0001 C CNN
+F 3 "~" V 1800 1275 50  0001 C CNN
+	1    1800 1275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2050 750  1    50   Input ~ 0
+col2
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 5EBE704F
+P 1850 1700
+F 0 "MX8" H 1883 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 1883 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1225 1675 60  0001 C CNN
+F 3 "" H 1225 1675 60  0001 C CNN
+	1    1850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5EBE7059
+P 1800 1950
+F 0 "D8" V 1800 1882 50  0000 R CNN
+F 1 "D_Small" V 1755 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1800 1950 50  0001 C CNN
+F 3 "~" V 1800 1950 50  0001 C CNN
+	1    1800 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 5EBE7063
+P 1850 2375
+F 0 "MX9" H 1883 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 1883 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1225 2350 60  0001 C CNN
+F 3 "" H 1225 2350 60  0001 C CNN
+	1    1850 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5EBE706D
+P 1800 2625
+F 0 "D9" V 1800 2557 50  0000 R CNN
+F 1 "D_Small" V 1755 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1800 2625 50  0001 C CNN
+F 3 "~" V 1800 2625 50  0001 C CNN
+	1    1800 2625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 750  2050 975 
+Wire Wire Line
+	2000 2325 2050 2325
+Wire Wire Line
+	2000 1650 2050 1650
+Connection ~ 2050 1650
+Wire Wire Line
+	2050 1650 2050 2325
+Wire Wire Line
+	2000 975  2050 975 
+Connection ~ 2050 975 
+Wire Wire Line
+	2050 975  2050 1650
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 5EBEC898
+P 2225 1025
+F 0 "MX11" H 2258 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 2258 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1600 1000 60  0001 C CNN
+F 3 "" H 1600 1000 60  0001 C CNN
+	1    2225 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5EBEC8A2
+P 2175 1275
+F 0 "D11" V 2175 1207 50  0000 R CNN
+F 1 "D_Small" V 2130 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2175 1275 50  0001 C CNN
+F 3 "~" V 2175 1275 50  0001 C CNN
+	1    2175 1275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2425 750  1    50   Input ~ 0
+col3
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 5EBEC8AD
+P 2225 1700
+F 0 "MX12" H 2258 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 2258 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1600 1675 60  0001 C CNN
+F 3 "" H 1600 1675 60  0001 C CNN
+	1    2225 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5EBEC8B7
+P 2175 1950
+F 0 "D12" V 2175 1882 50  0000 R CNN
+F 1 "D_Small" V 2130 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2175 1950 50  0001 C CNN
+F 3 "~" V 2175 1950 50  0001 C CNN
+	1    2175 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 5EBEC8C1
+P 2225 2375
+F 0 "MX13" H 2258 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 2258 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1600 2350 60  0001 C CNN
+F 3 "" H 1600 2350 60  0001 C CNN
+	1    2225 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5EBEC8CB
+P 2175 2625
+F 0 "D13" V 2175 2557 50  0000 R CNN
+F 1 "D_Small" V 2130 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2175 2625 50  0001 C CNN
+F 3 "~" V 2175 2625 50  0001 C CNN
+	1    2175 2625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2425 750  2425 975 
+Wire Wire Line
+	2375 2325 2425 2325
+Wire Wire Line
+	2375 1650 2425 1650
+Connection ~ 2425 1650
+Wire Wire Line
+	2425 1650 2425 2325
+Wire Wire Line
+	2375 975  2425 975 
+Connection ~ 2425 975 
+Wire Wire Line
+	2425 975  2425 1650
+Wire Wire Line
+	1050 1375 1425 1375
+Connection ~ 1050 1375
+Connection ~ 1425 1375
+Wire Wire Line
+	1425 1375 1800 1375
+Connection ~ 1800 1375
+Wire Wire Line
+	1800 1375 2175 1375
+Wire Wire Line
+	1050 2050 1425 2050
+Connection ~ 1050 2050
+Connection ~ 1425 2050
+Wire Wire Line
+	1425 2050 1800 2050
+Connection ~ 1800 2050
+Wire Wire Line
+	1800 2050 2175 2050
+Wire Wire Line
+	1050 2725 1425 2725
+Connection ~ 1050 2725
+Connection ~ 1425 2725
+Wire Wire Line
+	1425 2725 1800 2725
+Connection ~ 1800 2725
+Wire Wire Line
+	1800 2725 2175 2725
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 5EC2A64C
+P 1850 3050
+F 0 "MX10" H 1883 3273 60  0000 C CNN
+F 1 "MX-NoLED" H 1883 3199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1225 3025 60  0001 C CNN
+F 3 "" H 1225 3025 60  0001 C CNN
+	1    1850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5EC2A656
+P 1800 3300
+F 0 "D10" V 1800 3232 50  0000 R CNN
+F 1 "D_Small" V 1755 3232 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 1800 3300 50  0001 C CNN
+F 3 "~" V 1800 3300 50  0001 C CNN
+	1    1800 3300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1675 3400 0    50   Input ~ 0
+row3
+Wire Wire Line
+	1675 3400 1800 3400
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 5EC2A662
+P 2225 3050
+F 0 "MX14" H 2258 3273 60  0000 C CNN
+F 1 "MX-NoLED" H 2258 3199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1600 3025 60  0001 C CNN
+F 3 "" H 1600 3025 60  0001 C CNN
+	1    2225 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5EC2A66C
+P 2175 3300
+F 0 "D14" V 2175 3232 50  0000 R CNN
+F 1 "D_Small" V 2130 3232 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2175 3300 50  0001 C CNN
+F 3 "~" V 2175 3300 50  0001 C CNN
+	1    2175 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 3400 2175 3400
+Connection ~ 1800 3400
+Wire Wire Line
+	2050 2325 2050 3000
+Wire Wire Line
+	2050 3000 2000 3000
+Connection ~ 2050 2325
+Wire Wire Line
+	2425 2325 2425 3000
+Wire Wire Line
+	2425 3000 2375 3000
+Connection ~ 2425 2325
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 5EC685E2
+P 2600 1025
+F 0 "MX15" H 2633 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 2633 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1975 1000 60  0001 C CNN
+F 3 "" H 1975 1000 60  0001 C CNN
+	1    2600 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5EC685EC
+P 2550 1275
+F 0 "D15" V 2550 1207 50  0000 R CNN
+F 1 "D_Small" V 2505 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2550 1275 50  0001 C CNN
+F 3 "~" V 2550 1275 50  0001 C CNN
+	1    2550 1275
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2800 750  1    50   Input ~ 0
+col4
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 5EC685F7
+P 2600 1700
+F 0 "MX16" H 2633 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 2633 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1975 1675 60  0001 C CNN
+F 3 "" H 1975 1675 60  0001 C CNN
+	1    2600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5EC68601
+P 2550 1950
+F 0 "D16" V 2550 1882 50  0000 R CNN
+F 1 "D_Small" V 2505 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2550 1950 50  0001 C CNN
+F 3 "~" V 2550 1950 50  0001 C CNN
+	1    2550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 5EC6860B
+P 2600 2375
+F 0 "MX17" H 2633 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 2633 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1975 2350 60  0001 C CNN
+F 3 "" H 1975 2350 60  0001 C CNN
+	1    2600 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5EC68615
+P 2550 2625
+F 0 "D17" V 2550 2557 50  0000 R CNN
+F 1 "D_Small" V 2505 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2550 2625 50  0001 C CNN
+F 3 "~" V 2550 2625 50  0001 C CNN
+	1    2550 2625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 750  2800 975 
+Wire Wire Line
+	2750 2325 2800 2325
+Wire Wire Line
+	2750 1650 2800 1650
+Connection ~ 2800 1650
+Wire Wire Line
+	2800 1650 2800 2325
+Wire Wire Line
+	2750 975  2800 975 
+Connection ~ 2800 975 
+Wire Wire Line
+	2800 975  2800 1650
+Wire Wire Line
+	2175 1375 2550 1375
+Wire Wire Line
+	2175 2050 2550 2050
+Wire Wire Line
+	2175 2725 2550 2725
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 5EC6862A
+P 2600 3050
+F 0 "MX18" H 2633 3273 60  0000 C CNN
+F 1 "MX-NoLED" H 2633 3199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 1975 3025 60  0001 C CNN
+F 3 "" H 1975 3025 60  0001 C CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5EC68634
+P 2550 3300
+F 0 "D18" V 2550 3232 50  0000 R CNN
+F 1 "D_Small" V 2505 3232 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2550 3300 50  0001 C CNN
+F 3 "~" V 2550 3300 50  0001 C CNN
+	1    2550 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2175 3400 2550 3400
+Wire Wire Line
+	2800 2325 2800 3000
+Wire Wire Line
+	2800 3000 2750 3000
+Connection ~ 2800 2325
+Connection ~ 2175 1375
+Connection ~ 2175 2050
+Connection ~ 2175 2725
+Connection ~ 2175 3400
+Connection ~ 2550 3400
+Connection ~ 2550 2725
+Connection ~ 2550 2050
+Connection ~ 2550 1375
+Connection ~ 4050 2725
+Connection ~ 4050 2050
+Connection ~ 4050 1375
+Wire Wire Line
+	4050 2725 4425 2725
+Wire Wire Line
+	4050 2050 4425 2050
+Wire Wire Line
+	4050 1375 4425 1375
+Wire Wire Line
+	4675 975  4675 1650
+Connection ~ 4675 975 
+Wire Wire Line
+	4625 975  4675 975 
+Wire Wire Line
+	4675 1650 4675 2325
+Connection ~ 4675 1650
+Wire Wire Line
+	4625 1650 4675 1650
+Wire Wire Line
+	4625 2325 4675 2325
+Wire Wire Line
+	4675 750  4675 975 
+$Comp
+L Device:D_Small D36
+U 1 1 5ECEE1D2
+P 4425 2625
+F 0 "D36" V 4425 2557 50  0000 R CNN
+F 1 "D_Small" V 4380 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 4425 2625 50  0001 C CNN
+F 3 "~" V 4425 2625 50  0001 C CNN
+	1    4425 2625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX36
+U 1 1 5ECEE1C8
+P 4475 2375
+F 0 "MX36" H 4508 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 4508 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3850 2350 60  0001 C CNN
+F 3 "" H 3850 2350 60  0001 C CNN
+	1    4475 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5ECEE1BE
+P 4425 1950
+F 0 "D35" V 4425 1882 50  0000 R CNN
+F 1 "D_Small" V 4380 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 4425 1950 50  0001 C CNN
+F 3 "~" V 4425 1950 50  0001 C CNN
+	1    4425 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX35
+U 1 1 5ECEE1B4
+P 4475 1700
+F 0 "MX35" H 4508 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 4508 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3850 1675 60  0001 C CNN
+F 3 "" H 3850 1675 60  0001 C CNN
+	1    4475 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4675 750  1    50   Input ~ 0
+col9
+$Comp
+L Device:D_Small D34
+U 1 1 5ECEE1A9
+P 4425 1275
+F 0 "D34" V 4425 1207 50  0000 R CNN
+F 1 "D_Small" V 4380 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 4425 1275 50  0001 C CNN
+F 3 "~" V 4425 1275 50  0001 C CNN
+	1    4425 1275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX34
+U 1 1 5ECEE19F
+P 4475 1025
+F 0 "MX34" H 4508 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 4508 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3850 1000 60  0001 C CNN
+F 3 "" H 3850 1000 60  0001 C CNN
+	1    4475 1025
+	1    0    0    -1  
+$EndComp
+Connection ~ 3675 2725
+Connection ~ 3675 2050
+Connection ~ 3675 1375
+Wire Wire Line
+	3675 2725 4050 2725
+Wire Wire Line
+	3675 2050 4050 2050
+Wire Wire Line
+	3675 1375 4050 1375
+Wire Wire Line
+	4300 975  4300 1650
+Connection ~ 4300 975 
+Wire Wire Line
+	4250 975  4300 975 
+Wire Wire Line
+	4300 1650 4300 2325
+Connection ~ 4300 1650
+Wire Wire Line
+	4250 1650 4300 1650
+Wire Wire Line
+	4250 2325 4300 2325
+Wire Wire Line
+	4300 750  4300 975 
+$Comp
+L Device:D_Small D33
+U 1 1 5ECB520C
+P 4050 2625
+F 0 "D33" V 4050 2557 50  0000 R CNN
+F 1 "D_Small" V 4005 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 4050 2625 50  0001 C CNN
+F 3 "~" V 4050 2625 50  0001 C CNN
+	1    4050 2625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX33
+U 1 1 5ECB5202
+P 4100 2375
+F 0 "MX33" H 4133 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 4133 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3475 2350 60  0001 C CNN
+F 3 "" H 3475 2350 60  0001 C CNN
+	1    4100 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5ECB51F8
+P 4050 1950
+F 0 "D32" V 4050 1882 50  0000 R CNN
+F 1 "D_Small" V 4005 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 4050 1950 50  0001 C CNN
+F 3 "~" V 4050 1950 50  0001 C CNN
+	1    4050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX32
+U 1 1 5ECB51EE
+P 4100 1700
+F 0 "MX32" H 4133 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 4133 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3475 1675 60  0001 C CNN
+F 3 "" H 3475 1675 60  0001 C CNN
+	1    4100 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 750  1    50   Input ~ 0
+col8
+$Comp
+L Device:D_Small D31
+U 1 1 5ECB51E3
+P 4050 1275
+F 0 "D31" V 4050 1207 50  0000 R CNN
+F 1 "D_Small" V 4005 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 4050 1275 50  0001 C CNN
+F 3 "~" V 4050 1275 50  0001 C CNN
+	1    4050 1275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX31
+U 1 1 5ECB51D9
+P 4100 1025
+F 0 "MX31" H 4133 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 4133 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3475 1000 60  0001 C CNN
+F 3 "" H 3475 1000 60  0001 C CNN
+	1    4100 1025
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 3400
+Connection ~ 3300 2725
+Connection ~ 3300 2050
+Connection ~ 3300 1375
+Connection ~ 3925 2325
+Wire Wire Line
+	3925 3000 3875 3000
+Wire Wire Line
+	3925 2325 3925 3000
+Wire Wire Line
+	3300 3400 3675 3400
+$Comp
+L Device:D_Small D30
+U 1 1 5EC9E295
+P 3675 3300
+F 0 "D30" V 3675 3232 50  0000 R CNN
+F 1 "D_Small" V 3630 3232 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3675 3300 50  0001 C CNN
+F 3 "~" V 3675 3300 50  0001 C CNN
+	1    3675 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX30
+U 1 1 5EC9E28B
+P 3725 3050
+F 0 "MX30" H 3758 3273 60  0000 C CNN
+F 1 "MX-NoLED" H 3758 3199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3100 3025 60  0001 C CNN
+F 3 "" H 3100 3025 60  0001 C CNN
+	1    3725 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2725 3675 2725
+Wire Wire Line
+	3300 2050 3675 2050
+Wire Wire Line
+	3300 1375 3675 1375
+Wire Wire Line
+	3925 975  3925 1650
+Connection ~ 3925 975 
+Wire Wire Line
+	3875 975  3925 975 
+Wire Wire Line
+	3925 1650 3925 2325
+Connection ~ 3925 1650
+Wire Wire Line
+	3875 1650 3925 1650
+Wire Wire Line
+	3875 2325 3925 2325
+Wire Wire Line
+	3925 750  3925 975 
+$Comp
+L Device:D_Small D29
+U 1 1 5EC9E276
+P 3675 2625
+F 0 "D29" V 3675 2557 50  0000 R CNN
+F 1 "D_Small" V 3630 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3675 2625 50  0001 C CNN
+F 3 "~" V 3675 2625 50  0001 C CNN
+	1    3675 2625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX29
+U 1 1 5EC9E26C
+P 3725 2375
+F 0 "MX29" H 3758 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 3758 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3100 2350 60  0001 C CNN
+F 3 "" H 3100 2350 60  0001 C CNN
+	1    3725 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5EC9E262
+P 3675 1950
+F 0 "D28" V 3675 1882 50  0000 R CNN
+F 1 "D_Small" V 3630 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3675 1950 50  0001 C CNN
+F 3 "~" V 3675 1950 50  0001 C CNN
+	1    3675 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX28
+U 1 1 5EC9E258
+P 3725 1700
+F 0 "MX28" H 3758 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 3758 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3100 1675 60  0001 C CNN
+F 3 "" H 3100 1675 60  0001 C CNN
+	1    3725 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3925 750  1    50   Input ~ 0
+col7
+$Comp
+L Device:D_Small D27
+U 1 1 5EC9E24D
+P 3675 1275
+F 0 "D27" V 3675 1207 50  0000 R CNN
+F 1 "D_Small" V 3630 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3675 1275 50  0001 C CNN
+F 3 "~" V 3675 1275 50  0001 C CNN
+	1    3675 1275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX27
+U 1 1 5EC9E243
+P 3725 1025
+F 0 "MX27" H 3758 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 3758 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 3100 1000 60  0001 C CNN
+F 3 "" H 3100 1000 60  0001 C CNN
+	1    3725 1025
+	1    0    0    -1  
+$EndComp
+Connection ~ 2925 3400
+Connection ~ 2925 2725
+Connection ~ 2925 2050
+Connection ~ 2925 1375
+Connection ~ 3550 2325
+Wire Wire Line
+	3550 3000 3500 3000
+Wire Wire Line
+	3550 2325 3550 3000
+Wire Wire Line
+	2925 3400 3300 3400
+$Comp
+L Device:D_Small D26
+U 1 1 5EC8A8DB
+P 3300 3300
+F 0 "D26" V 3300 3232 50  0000 R CNN
+F 1 "D_Small" V 3255 3232 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3300 3300 50  0001 C CNN
+F 3 "~" V 3300 3300 50  0001 C CNN
+	1    3300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX26
+U 1 1 5EC8A8D1
+P 3350 3050
+F 0 "MX26" H 3383 3273 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 3199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2725 3025 60  0001 C CNN
+F 3 "" H 2725 3025 60  0001 C CNN
+	1    3350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 2725 3300 2725
+Wire Wire Line
+	2925 2050 3300 2050
+Wire Wire Line
+	2925 1375 3300 1375
+Wire Wire Line
+	3550 975  3550 1650
+Connection ~ 3550 975 
+Wire Wire Line
+	3500 975  3550 975 
+Wire Wire Line
+	3550 1650 3550 2325
+Connection ~ 3550 1650
+Wire Wire Line
+	3500 1650 3550 1650
+Wire Wire Line
+	3500 2325 3550 2325
+Wire Wire Line
+	3550 750  3550 975 
+$Comp
+L Device:D_Small D25
+U 1 1 5EC8A8BC
+P 3300 2625
+F 0 "D25" V 3300 2557 50  0000 R CNN
+F 1 "D_Small" V 3255 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3300 2625 50  0001 C CNN
+F 3 "~" V 3300 2625 50  0001 C CNN
+	1    3300 2625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX25
+U 1 1 5EC8A8B2
+P 3350 2375
+F 0 "MX25" H 3383 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2725 2350 60  0001 C CNN
+F 3 "" H 2725 2350 60  0001 C CNN
+	1    3350 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5EC8A8A8
+P 3300 1950
+F 0 "D24" V 3300 1882 50  0000 R CNN
+F 1 "D_Small" V 3255 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3300 1950 50  0001 C CNN
+F 3 "~" V 3300 1950 50  0001 C CNN
+	1    3300 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX24
+U 1 1 5EC8A89E
+P 3350 1700
+F 0 "MX24" H 3383 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2725 1675 60  0001 C CNN
+F 3 "" H 2725 1675 60  0001 C CNN
+	1    3350 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3550 750  1    50   Input ~ 0
+col6
+$Comp
+L Device:D_Small D23
+U 1 1 5EC8A893
+P 3300 1275
+F 0 "D23" V 3300 1207 50  0000 R CNN
+F 1 "D_Small" V 3255 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 3300 1275 50  0001 C CNN
+F 3 "~" V 3300 1275 50  0001 C CNN
+	1    3300 1275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 5EC8A889
+P 3350 1025
+F 0 "MX23" H 3383 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 3383 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2725 1000 60  0001 C CNN
+F 3 "" H 2725 1000 60  0001 C CNN
+	1    3350 1025
+	1    0    0    -1  
+$EndComp
+Connection ~ 3175 2325
+Wire Wire Line
+	3175 3000 3125 3000
+Wire Wire Line
+	3175 2325 3175 3000
+Wire Wire Line
+	2550 3400 2925 3400
+$Comp
+L Device:D_Small D22
+U 1 1 5EC779B7
+P 2925 3300
+F 0 "D22" V 2925 3232 50  0000 R CNN
+F 1 "D_Small" V 2880 3232 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2925 3300 50  0001 C CNN
+F 3 "~" V 2925 3300 50  0001 C CNN
+	1    2925 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX22
+U 1 1 5EC779AD
+P 2975 3050
+F 0 "MX22" H 3008 3273 60  0000 C CNN
+F 1 "MX-NoLED" H 3008 3199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2350 3025 60  0001 C CNN
+F 3 "" H 2350 3025 60  0001 C CNN
+	1    2975 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2725 2925 2725
+Wire Wire Line
+	2550 2050 2925 2050
+Wire Wire Line
+	2550 1375 2925 1375
+Wire Wire Line
+	3175 975  3175 1650
+Connection ~ 3175 975 
+Wire Wire Line
+	3125 975  3175 975 
+Wire Wire Line
+	3175 1650 3175 2325
+Connection ~ 3175 1650
+Wire Wire Line
+	3125 1650 3175 1650
+Wire Wire Line
+	3125 2325 3175 2325
+Wire Wire Line
+	3175 750  3175 975 
+$Comp
+L Device:D_Small D21
+U 1 1 5EC77998
+P 2925 2625
+F 0 "D21" V 2925 2557 50  0000 R CNN
+F 1 "D_Small" V 2880 2557 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2925 2625 50  0001 C CNN
+F 3 "~" V 2925 2625 50  0001 C CNN
+	1    2925 2625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 5EC7798E
+P 2975 2375
+F 0 "MX21" H 3008 2598 60  0000 C CNN
+F 1 "MX-NoLED" H 3008 2524 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2350 2350 60  0001 C CNN
+F 3 "" H 2350 2350 60  0001 C CNN
+	1    2975 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5EC77984
+P 2925 1950
+F 0 "D20" V 2925 1882 50  0000 R CNN
+F 1 "D_Small" V 2880 1882 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2925 1950 50  0001 C CNN
+F 3 "~" V 2925 1950 50  0001 C CNN
+	1    2925 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 5EC7797A
+P 2975 1700
+F 0 "MX20" H 3008 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 3008 1849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2350 1675 60  0001 C CNN
+F 3 "" H 2350 1675 60  0001 C CNN
+	1    2975 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3175 750  1    50   Input ~ 0
+col5
+$Comp
+L Device:D_Small D19
+U 1 1 5EC7796F
+P 2925 1275
+F 0 "D19" V 2925 1207 50  0000 R CNN
+F 1 "D_Small" V 2880 1207 50  0001 R CNN
+F 2 "kbd:D3_TH_1side" V 2925 1275 50  0001 C CNN
+F 3 "~" V 2925 1275 50  0001 C CNN
+	1    2925 1275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 5EC77965
+P 2975 1025
+F 0 "MX19" H 3008 1248 60  0000 C CNN
+F 1 "MX-NoLED" H 3008 1174 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap-Polarity-Swap" H 2350 1000 60  0001 C CNN
+F 3 "" H 2350 1000 60  0001 C CNN
+	1    2975 1025
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

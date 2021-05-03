@@ -1,0 +1,1214 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Corne Light"
+Date "2018-12-26"
+Rev "2.1"
+Comp "foostan"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L corne-light-rescue:ProMicro-kbd U1
+U 1 1 5A5E14C2
+P 9075 2325
+F 0 "U1" H 9075 3275 60  0000 C CNN
+F 1 "ProMicro" H 9075 1775 60  0000 C CNN
+F 2 "kbd:ProMicro_v2_1side" H 9175 1275 60  0001 C CNN
+F 3 "" H 9175 1275 60  0000 C CNN
+	1    9075 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW2
+U 1 1 5A5E2699
+P 1625 950
+F 0 "SW2" H 1775 1060 50  0000 C CNN
+F 1 "SW_PUSH" H 1625 870 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 1625 950 50  0001 C CNN
+F 3 "" H 1625 950 50  0000 C CNN
+	1    1625 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5A5E26C6
+P 1925 1100
+F 0 "D2" H 1925 1200 50  0000 C CNN
+F 1 "D" H 1925 1000 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1925 1100 50  0001 C CNN
+F 3 "" H 1925 1100 50  0001 C CNN
+	1    1925 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW3
+U 1 1 5A5E27F9
+P 2325 950
+F 0 "SW3" H 2475 1060 50  0000 C CNN
+F 1 "SW_PUSH" H 2325 870 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2325 950 50  0001 C CNN
+F 3 "" H 2325 950 50  0000 C CNN
+	1    2325 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5A5E281F
+P 2625 1100
+F 0 "D3" H 2625 1200 50  0000 C CNN
+F 1 "D" H 2625 1000 50  0000 C CNN
+F 2 "kbd:D3_TH" H 2625 1100 50  0001 C CNN
+F 3 "" H 2625 1100 50  0001 C CNN
+	1    2625 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW4
+U 1 1 5A5E2908
+P 3025 950
+F 0 "SW4" H 3175 1060 50  0000 C CNN
+F 1 "SW_PUSH" H 3025 870 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3025 950 50  0001 C CNN
+F 3 "" H 3025 950 50  0000 C CNN
+	1    3025 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW5
+U 1 1 5A5E2933
+P 3725 950
+F 0 "SW5" H 3875 1060 50  0000 C CNN
+F 1 "SW_PUSH" H 3725 870 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3725 950 50  0001 C CNN
+F 3 "" H 3725 950 50  0000 C CNN
+	1    3725 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW6
+U 1 1 5A5E295E
+P 4425 950
+F 0 "SW6" H 4575 1060 50  0000 C CNN
+F 1 "SW_PUSH" H 4425 870 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4425 950 50  0001 C CNN
+F 3 "" H 4425 950 50  0000 C CNN
+	1    4425 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5A5E29BF
+P 3325 1100
+F 0 "D4" H 3325 1200 50  0000 C CNN
+F 1 "D" H 3325 1000 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3325 1100 50  0001 C CNN
+F 3 "" H 3325 1100 50  0001 C CNN
+	1    3325 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5A5E29F2
+P 4025 1100
+F 0 "D5" H 4025 1200 50  0000 C CNN
+F 1 "D" H 4025 1000 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4025 1100 50  0001 C CNN
+F 3 "" H 4025 1100 50  0001 C CNN
+	1    4025 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5A5E2A33
+P 4725 1100
+F 0 "D6" H 4725 1200 50  0000 C CNN
+F 1 "D" H 4725 1000 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4725 1100 50  0001 C CNN
+F 3 "" H 4725 1100 50  0001 C CNN
+	1    4725 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW8
+U 1 1 5A5E2D26
+P 1625 1550
+F 0 "SW8" H 1775 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 1625 1470 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 1625 1550 50  0001 C CNN
+F 3 "" H 1625 1550 50  0000 C CNN
+	1    1625 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5A5E2D2C
+P 1925 1700
+F 0 "D8" H 1925 1800 50  0000 C CNN
+F 1 "D" H 1925 1600 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1925 1700 50  0001 C CNN
+F 3 "" H 1925 1700 50  0001 C CNN
+	1    1925 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW9
+U 1 1 5A5E2D32
+P 2325 1550
+F 0 "SW9" H 2475 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 2325 1470 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2325 1550 50  0001 C CNN
+F 3 "" H 2325 1550 50  0000 C CNN
+	1    2325 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5A5E2D38
+P 2625 1700
+F 0 "D9" H 2625 1800 50  0000 C CNN
+F 1 "D" H 2625 1600 50  0000 C CNN
+F 2 "kbd:D3_TH" H 2625 1700 50  0001 C CNN
+F 3 "" H 2625 1700 50  0001 C CNN
+	1    2625 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW10
+U 1 1 5A5E2D3E
+P 3025 1550
+F 0 "SW10" H 3175 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 3025 1470 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3025 1550 50  0001 C CNN
+F 3 "" H 3025 1550 50  0000 C CNN
+	1    3025 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW11
+U 1 1 5A5E2D44
+P 3725 1550
+F 0 "SW11" H 3875 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 3725 1470 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3725 1550 50  0001 C CNN
+F 3 "" H 3725 1550 50  0000 C CNN
+	1    3725 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW12
+U 1 1 5A5E2D4A
+P 4425 1550
+F 0 "SW12" H 4575 1660 50  0000 C CNN
+F 1 "SW_PUSH" H 4425 1470 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4425 1550 50  0001 C CNN
+F 3 "" H 4425 1550 50  0000 C CNN
+	1    4425 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5A5E2D56
+P 3325 1700
+F 0 "D10" H 3325 1800 50  0000 C CNN
+F 1 "D" H 3325 1600 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3325 1700 50  0001 C CNN
+F 3 "" H 3325 1700 50  0001 C CNN
+	1    3325 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5A5E2D5C
+P 4025 1700
+F 0 "D11" H 4025 1800 50  0000 C CNN
+F 1 "D" H 4025 1600 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4025 1700 50  0001 C CNN
+F 3 "" H 4025 1700 50  0001 C CNN
+	1    4025 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5A5E2D62
+P 4725 1700
+F 0 "D12" H 4725 1800 50  0000 C CNN
+F 1 "D" H 4725 1600 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4725 1700 50  0001 C CNN
+F 3 "" H 4725 1700 50  0001 C CNN
+	1    4725 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW14
+U 1 1 5A5E35B1
+P 1625 2150
+F 0 "SW14" H 1775 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 1625 2070 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 1625 2150 50  0001 C CNN
+F 3 "" H 1625 2150 50  0000 C CNN
+	1    1625 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5A5E35B7
+P 1925 2300
+F 0 "D14" H 1925 2400 50  0000 C CNN
+F 1 "D" H 1925 2200 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1925 2300 50  0001 C CNN
+F 3 "" H 1925 2300 50  0001 C CNN
+	1    1925 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW15
+U 1 1 5A5E35BD
+P 2325 2150
+F 0 "SW15" H 2475 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 2325 2070 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2325 2150 50  0001 C CNN
+F 3 "" H 2325 2150 50  0000 C CNN
+	1    2325 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5A5E35C3
+P 2625 2300
+F 0 "D15" H 2625 2400 50  0000 C CNN
+F 1 "D" H 2625 2200 50  0000 C CNN
+F 2 "kbd:D3_TH" H 2625 2300 50  0001 C CNN
+F 3 "" H 2625 2300 50  0001 C CNN
+	1    2625 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW16
+U 1 1 5A5E35C9
+P 3025 2150
+F 0 "SW16" H 3175 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 3025 2070 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3025 2150 50  0001 C CNN
+F 3 "" H 3025 2150 50  0000 C CNN
+	1    3025 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW17
+U 1 1 5A5E35CF
+P 3725 2150
+F 0 "SW17" H 3875 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 3725 2070 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3725 2150 50  0001 C CNN
+F 3 "" H 3725 2150 50  0000 C CNN
+	1    3725 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW18
+U 1 1 5A5E35D5
+P 4425 2150
+F 0 "SW18" H 4575 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 4425 2070 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4425 2150 50  0001 C CNN
+F 3 "" H 4425 2150 50  0000 C CNN
+	1    4425 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5A5E35E1
+P 3325 2300
+F 0 "D16" H 3325 2400 50  0000 C CNN
+F 1 "D" H 3325 2200 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3325 2300 50  0001 C CNN
+F 3 "" H 3325 2300 50  0001 C CNN
+	1    3325 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5A5E35E7
+P 4025 2300
+F 0 "D17" H 4025 2400 50  0000 C CNN
+F 1 "D" H 4025 2200 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4025 2300 50  0001 C CNN
+F 3 "" H 4025 2300 50  0001 C CNN
+	1    4025 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5A5E35ED
+P 4725 2300
+F 0 "D18" H 4725 2400 50  0000 C CNN
+F 1 "D" H 4725 2200 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4725 2300 50  0001 C CNN
+F 3 "" H 4725 2300 50  0001 C CNN
+	1    4725 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW20
+U 1 1 5A5E37A4
+P 3725 2750
+F 0 "SW20" H 3875 2860 50  0000 C CNN
+F 1 "SW_PUSH" H 3725 2670 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3725 2750 50  0001 C CNN
+F 3 "" H 3725 2750 50  0000 C CNN
+	1    3725 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5A5E37AA
+P 4025 2900
+F 0 "D20" H 4025 3000 50  0000 C CNN
+F 1 "D" H 4025 2800 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4025 2900 50  0001 C CNN
+F 3 "" H 4025 2900 50  0001 C CNN
+	1    4025 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW21
+U 1 1 5A5E37B0
+P 4425 2750
+F 0 "SW21" H 4575 2860 50  0000 C CNN
+F 1 "SW_PUSH" H 4425 2670 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1.5u" H 4425 2750 50  0001 C CNN
+F 3 "" H 4425 2750 50  0000 C CNN
+	1    4425 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5A5E37B6
+P 4725 2900
+F 0 "D21" H 4725 3000 50  0000 C CNN
+F 1 "D" H 4725 2800 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4725 2900 50  0001 C CNN
+F 3 "" H 4725 2900 50  0001 C CNN
+	1    4725 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW19
+U 1 1 5A5E37EC
+P 3025 2750
+F 0 "SW19" H 3175 2860 50  0000 C CNN
+F 1 "SW_PUSH" H 3025 2670 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3025 2750 50  0001 C CNN
+F 3 "" H 3025 2750 50  0000 C CNN
+	1    3025 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5A5E37F2
+P 3325 2900
+F 0 "D19" H 3325 3000 50  0000 C CNN
+F 1 "D" H 3325 2800 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3325 2900 50  0001 C CNN
+F 3 "" H 3325 2900 50  0001 C CNN
+	1    3325 2900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1325 800  1    60   Input ~ 0
+col0
+Text GLabel 2025 800  1    60   Input ~ 0
+col1
+Text GLabel 2725 800  1    60   Input ~ 0
+col2
+Text GLabel 3425 800  1    60   Input ~ 0
+col3
+Text GLabel 4125 800  1    60   Input ~ 0
+col4
+Text GLabel 1075 1250 0    60   Input ~ 0
+row0
+Text GLabel 1075 1850 0    60   Input ~ 0
+row1
+Text GLabel 1075 2450 0    60   Input ~ 0
+row2
+Text GLabel 3150 3050 0    60   Input ~ 0
+row3
+$Comp
+L power:GND #PWR03
+U 1 1 5A5E8A2C
+P 9975 1675
+F 0 "#PWR03" H 9975 1425 50  0001 C CNN
+F 1 "GND" H 9975 1525 50  0000 C CNN
+F 2 "" H 9975 1675 50  0001 C CNN
+F 3 "" H 9975 1675 50  0001 C CNN
+	1    9975 1675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5A5E8E4C
+P 8175 1875
+F 0 "#PWR04" H 8175 1625 50  0001 C CNN
+F 1 "GND" H 8175 1725 50  0000 C CNN
+F 2 "" H 8175 1875 50  0001 C CNN
+F 3 "" H 8175 1875 50  0001 C CNN
+	1    8175 1875
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5A5E9252
+P 10600 750
+F 0 "#PWR01" H 10600 500 50  0001 C CNN
+F 1 "GND" H 10600 600 50  0000 C CNN
+F 2 "" H 10600 750 50  0001 C CNN
+F 3 "" H 10600 750 50  0001 C CNN
+	1    10600 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5A5E9332
+P 11000 750
+F 0 "#PWR02" H 11000 600 50  0001 C CNN
+F 1 "VCC" H 11000 900 50  0000 C CNN
+F 2 "" H 11000 750 50  0001 C CNN
+F 3 "" H 11000 750 50  0001 C CNN
+	1    11000 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5A5E94F5
+P 11000 750
+F 0 "#FLG02" H 11000 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 11000 900 50  0000 C CNN
+F 2 "" H 11000 750 50  0001 C CNN
+F 3 "" H 11000 750 50  0001 C CNN
+	1    11000 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5A5E9623
+P 10600 750
+F 0 "#FLG01" H 10600 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 10600 900 50  0000 C CNN
+F 2 "" H 10600 750 50  0001 C CNN
+F 3 "" H 10600 750 50  0001 C CNN
+	1    10600 750 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9775 2075 2    47   Input ~ 0
+col1
+Text GLabel 9775 2175 2    47   Input ~ 0
+col2
+Text GLabel 9775 2275 2    47   Input ~ 0
+col3
+Text GLabel 9775 2375 2    47   Input ~ 0
+col4
+Text GLabel 9775 2475 2    47   Input ~ 0
+col5
+Text GLabel 8375 2475 0    47   Input ~ 0
+row3
+Text GLabel 8375 2375 0    47   Input ~ 0
+row2
+Text GLabel 8375 2275 0    47   Input ~ 0
+row1
+Text GLabel 8375 2175 0    47   Input ~ 0
+row0
+$Comp
+L corne-light-rescue:SW_PUSH-kbd RSW1
+U 1 1 5A5EB9E2
+P 8625 825
+F 0 "RSW1" H 8775 935 50  0000 C CNN
+F 1 "SW_PUSH" H 8625 745 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 8625 825 50  0001 C CNN
+F 3 "" H 8625 825 50  0000 C CNN
+	1    8625 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5A5EBDFF
+P 8925 825
+F 0 "#PWR07" H 8925 575 50  0001 C CNN
+F 1 "GND" H 8925 675 50  0000 C CNN
+F 2 "" H 8925 825 50  0001 C CNN
+F 3 "" H 8925 825 50  0001 C CNN
+	1    8925 825 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9775 1775 2    47   Input ~ 0
+reset
+Text GLabel 8325 825  0    60   Input ~ 0
+reset
+Text GLabel 9775 1975 2    47   Input ~ 0
+col0
+$Comp
+L power:VCC #PWR05
+U 1 1 5A5E8CD1
+P 9975 1875
+F 0 "#PWR05" H 9975 1725 50  0001 C CNN
+F 1 "VCC" H 9975 2025 50  0000 C CNN
+F 2 "" H 9975 1875 50  0001 C CNN
+F 3 "" H 9975 1875 50  0001 C CNN
+	1    9975 1875
+	0    1    1    0   
+$EndComp
+NoConn ~ 9775 1575
+Connection ~ 3325 3050
+Connection ~ 4025 3050
+Wire Wire Line
+	8275 1775 8275 1875
+Connection ~ 8275 1875
+Wire Wire Line
+	8375 1775 8275 1775
+Wire Wire Line
+	8175 1875 8275 1875
+Connection ~ 2625 2450
+Connection ~ 3325 2450
+Connection ~ 4025 2450
+Connection ~ 1925 1850
+Connection ~ 2625 1850
+Connection ~ 3325 1850
+Connection ~ 4025 1850
+Connection ~ 1925 1250
+Connection ~ 2625 1250
+Connection ~ 3325 1250
+Connection ~ 4025 1250
+Wire Wire Line
+	9775 1675 9975 1675
+Wire Wire Line
+	9775 1875 9975 1875
+Wire Wire Line
+	3325 3050 4025 3050
+Wire Wire Line
+	4025 3050 4725 3050
+Wire Wire Line
+	8275 1875 8375 1875
+Wire Wire Line
+	1925 2450 2625 2450
+Wire Wire Line
+	2625 2450 3325 2450
+Wire Wire Line
+	3325 2450 4025 2450
+Wire Wire Line
+	4025 2450 4725 2450
+Wire Wire Line
+	1925 1850 2625 1850
+Wire Wire Line
+	2625 1850 3325 1850
+Wire Wire Line
+	3325 1850 4025 1850
+Wire Wire Line
+	4025 1850 4725 1850
+Wire Wire Line
+	1925 1250 2625 1250
+Wire Wire Line
+	2625 1250 3325 1250
+Wire Wire Line
+	3325 1250 4025 1250
+Wire Wire Line
+	4025 1250 4725 1250
+Wire Wire Line
+	3150 3050 3325 3050
+Wire Wire Line
+	1325 800  1325 950 
+Wire Wire Line
+	2025 800  2025 950 
+Wire Wire Line
+	4125 800  4125 950 
+Wire Wire Line
+	3425 800  3425 950 
+Wire Wire Line
+	2725 800  2725 950 
+Connection ~ 1325 950 
+Wire Wire Line
+	1325 950  1325 1550
+Connection ~ 1325 1550
+Wire Wire Line
+	1325 1550 1325 2150
+Connection ~ 2025 950 
+Wire Wire Line
+	2025 950  2025 1550
+Connection ~ 2025 1550
+Wire Wire Line
+	2025 1550 2025 2150
+Connection ~ 2725 950 
+Wire Wire Line
+	2725 950  2725 1550
+Connection ~ 2725 1550
+Wire Wire Line
+	2725 1550 2725 2150
+Connection ~ 2725 2150
+Wire Wire Line
+	2725 2150 2725 2750
+Connection ~ 3425 950 
+Wire Wire Line
+	3425 950  3425 1550
+Connection ~ 3425 1550
+Wire Wire Line
+	3425 1550 3425 2150
+Connection ~ 3425 2150
+Wire Wire Line
+	3425 2150 3425 2750
+Connection ~ 4125 950 
+Wire Wire Line
+	4125 950  4125 1550
+Connection ~ 4125 1550
+Wire Wire Line
+	4125 1550 4125 2150
+Connection ~ 4125 2150
+Wire Wire Line
+	4125 2150 4125 2750
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW23
+U 1 1 5C25F85D
+P 1650 4200
+F 0 "SW23" H 1800 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 1650 4120 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 1650 4200 50  0001 C CNN
+F 3 "" H 1650 4200 50  0000 C CNN
+	1    1650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5C25F863
+P 1950 4350
+F 0 "D23" H 1950 4450 50  0000 C CNN
+F 1 "D" H 1950 4250 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1950 4350 50  0001 C CNN
+F 3 "" H 1950 4350 50  0001 C CNN
+	1    1950 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW24
+U 1 1 5C25F869
+P 2350 4200
+F 0 "SW24" H 2500 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 2350 4120 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2350 4200 50  0001 C CNN
+F 3 "" H 2350 4200 50  0000 C CNN
+	1    2350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5C25F86F
+P 2650 4350
+F 0 "D24" H 2650 4450 50  0000 C CNN
+F 1 "D" H 2650 4250 50  0000 C CNN
+F 2 "kbd:D3_TH" H 2650 4350 50  0001 C CNN
+F 3 "" H 2650 4350 50  0001 C CNN
+	1    2650 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW25
+U 1 1 5C25F875
+P 3050 4200
+F 0 "SW25" H 3200 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 4120 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3050 4200 50  0001 C CNN
+F 3 "" H 3050 4200 50  0000 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW26
+U 1 1 5C25F87B
+P 3750 4200
+F 0 "SW26" H 3900 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 4120 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3750 4200 50  0001 C CNN
+F 3 "" H 3750 4200 50  0000 C CNN
+	1    3750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW27
+U 1 1 5C25F881
+P 4450 4200
+F 0 "SW27" H 4600 4310 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 4120 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4450 4200 50  0001 C CNN
+F 3 "" H 4450 4200 50  0000 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5C25F887
+P 3350 4350
+F 0 "D25" H 3350 4450 50  0000 C CNN
+F 1 "D" H 3350 4250 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3350 4350 50  0001 C CNN
+F 3 "" H 3350 4350 50  0001 C CNN
+	1    3350 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5C25F88D
+P 4050 4350
+F 0 "D26" H 4050 4450 50  0000 C CNN
+F 1 "D" H 4050 4250 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4050 4350 50  0001 C CNN
+F 3 "" H 4050 4350 50  0001 C CNN
+	1    4050 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5C25F893
+P 4750 4350
+F 0 "D27" H 4750 4450 50  0000 C CNN
+F 1 "D" H 4750 4250 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4750 4350 50  0001 C CNN
+F 3 "" H 4750 4350 50  0001 C CNN
+	1    4750 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW29
+U 1 1 5C25F8A5
+P 1650 4800
+F 0 "SW29" H 1800 4910 50  0000 C CNN
+F 1 "SW_PUSH" H 1650 4720 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 1650 4800 50  0001 C CNN
+F 3 "" H 1650 4800 50  0000 C CNN
+	1    1650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5C25F8AB
+P 1950 4950
+F 0 "D29" H 1950 5050 50  0000 C CNN
+F 1 "D" H 1950 4850 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1950 4950 50  0001 C CNN
+F 3 "" H 1950 4950 50  0001 C CNN
+	1    1950 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW30
+U 1 1 5C25F8B1
+P 2350 4800
+F 0 "SW30" H 2500 4910 50  0000 C CNN
+F 1 "SW_PUSH" H 2350 4720 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2350 4800 50  0001 C CNN
+F 3 "" H 2350 4800 50  0000 C CNN
+	1    2350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5C25F8B7
+P 2650 4950
+F 0 "D30" H 2650 5050 50  0000 C CNN
+F 1 "D" H 2650 4850 50  0000 C CNN
+F 2 "kbd:D3_TH" H 2650 4950 50  0001 C CNN
+F 3 "" H 2650 4950 50  0001 C CNN
+	1    2650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW31
+U 1 1 5C25F8BD
+P 3050 4800
+F 0 "SW31" H 3200 4910 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 4720 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3050 4800 50  0001 C CNN
+F 3 "" H 3050 4800 50  0000 C CNN
+	1    3050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW32
+U 1 1 5C25F8C3
+P 3750 4800
+F 0 "SW32" H 3900 4910 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 4720 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3750 4800 50  0001 C CNN
+F 3 "" H 3750 4800 50  0000 C CNN
+	1    3750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW33
+U 1 1 5C25F8C9
+P 4450 4800
+F 0 "SW33" H 4600 4910 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 4720 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4450 4800 50  0001 C CNN
+F 3 "" H 4450 4800 50  0000 C CNN
+	1    4450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5C25F8CF
+P 3350 4950
+F 0 "D31" H 3350 5050 50  0000 C CNN
+F 1 "D" H 3350 4850 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3350 4950 50  0001 C CNN
+F 3 "" H 3350 4950 50  0001 C CNN
+	1    3350 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5C25F8D5
+P 4050 4950
+F 0 "D32" H 4050 5050 50  0000 C CNN
+F 1 "D" H 4050 4850 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4050 4950 50  0001 C CNN
+F 3 "" H 4050 4950 50  0001 C CNN
+	1    4050 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5C25F8DB
+P 4750 4950
+F 0 "D33" H 4750 5050 50  0000 C CNN
+F 1 "D" H 4750 4850 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4750 4950 50  0001 C CNN
+F 3 "" H 4750 4950 50  0001 C CNN
+	1    4750 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW35
+U 1 1 5C25F8ED
+P 1650 5400
+F 0 "SW35" H 1800 5510 50  0000 C CNN
+F 1 "SW_PUSH" H 1650 5320 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 1650 5400 50  0001 C CNN
+F 3 "" H 1650 5400 50  0000 C CNN
+	1    1650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5C25F8F3
+P 1950 5550
+F 0 "D35" H 1950 5650 50  0000 C CNN
+F 1 "D" H 1950 5450 50  0000 C CNN
+F 2 "kbd:D3_TH" H 1950 5550 50  0001 C CNN
+F 3 "" H 1950 5550 50  0001 C CNN
+	1    1950 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW36
+U 1 1 5C25F8F9
+P 2350 5400
+F 0 "SW36" H 2500 5510 50  0000 C CNN
+F 1 "SW_PUSH" H 2350 5320 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 2350 5400 50  0001 C CNN
+F 3 "" H 2350 5400 50  0000 C CNN
+	1    2350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5C25F8FF
+P 2650 5550
+F 0 "D36" H 2650 5650 50  0000 C CNN
+F 1 "D" H 2650 5450 50  0000 C CNN
+F 2 "kbd:D3_TH" H 2650 5550 50  0001 C CNN
+F 3 "" H 2650 5550 50  0001 C CNN
+	1    2650 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW37
+U 1 1 5C25F905
+P 3050 5400
+F 0 "SW37" H 3200 5510 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 5320 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3050 5400 50  0001 C CNN
+F 3 "" H 3050 5400 50  0000 C CNN
+	1    3050 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW38
+U 1 1 5C25F90B
+P 3750 5400
+F 0 "SW38" H 3900 5510 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 5320 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3750 5400 50  0001 C CNN
+F 3 "" H 3750 5400 50  0000 C CNN
+	1    3750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW39
+U 1 1 5C25F911
+P 4450 5400
+F 0 "SW39" H 4600 5510 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 5320 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 4450 5400 50  0001 C CNN
+F 3 "" H 4450 5400 50  0000 C CNN
+	1    4450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5C25F917
+P 3350 5550
+F 0 "D37" H 3350 5650 50  0000 C CNN
+F 1 "D" H 3350 5450 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3350 5550 50  0001 C CNN
+F 3 "" H 3350 5550 50  0001 C CNN
+	1    3350 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5C25F91D
+P 4050 5550
+F 0 "D38" H 4050 5650 50  0000 C CNN
+F 1 "D" H 4050 5450 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4050 5550 50  0001 C CNN
+F 3 "" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5C25F923
+P 4750 5550
+F 0 "D39" H 4750 5650 50  0000 C CNN
+F 1 "D" H 4750 5450 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4750 5550 50  0001 C CNN
+F 3 "" H 4750 5550 50  0001 C CNN
+	1    4750 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW41
+U 1 1 5C25F935
+P 3750 6000
+F 0 "SW41" H 3900 6110 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 5920 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3750 6000 50  0001 C CNN
+F 3 "" H 3750 6000 50  0000 C CNN
+	1    3750 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5C25F93B
+P 4050 6150
+F 0 "D41" H 4050 6250 50  0000 C CNN
+F 1 "D" H 4050 6050 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4050 6150 50  0001 C CNN
+F 3 "" H 4050 6150 50  0001 C CNN
+	1    4050 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW42
+U 1 1 5C25F941
+P 4450 6000
+F 0 "SW42" H 4600 6110 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 5920 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1.5u" H 4450 6000 50  0001 C CNN
+F 3 "" H 4450 6000 50  0000 C CNN
+	1    4450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5C25F947
+P 4750 6150
+F 0 "D42" H 4750 6250 50  0000 C CNN
+F 1 "D" H 4750 6050 50  0000 C CNN
+F 2 "kbd:D3_TH" H 4750 6150 50  0001 C CNN
+F 3 "" H 4750 6150 50  0001 C CNN
+	1    4750 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L corne-light-rescue:SW_PUSH-kbd SW40
+U 1 1 5C25F94D
+P 3050 6000
+F 0 "SW40" H 3200 6110 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 5920 50  0000 C CNN
+F 2 "kbd:CherryMX_Choc_1u" H 3050 6000 50  0001 C CNN
+F 3 "" H 3050 6000 50  0000 C CNN
+	1    3050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5C25F953
+P 3350 6150
+F 0 "D40" H 3350 6250 50  0000 C CNN
+F 1 "D" H 3350 6050 50  0000 C CNN
+F 2 "kbd:D3_TH" H 3350 6150 50  0001 C CNN
+F 3 "" H 3350 6150 50  0001 C CNN
+	1    3350 6150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1350 4050 1    60   Input ~ 0
+col9
+Text GLabel 2050 4050 1    60   Input ~ 0
+col8
+Text GLabel 2750 4050 1    60   Input ~ 0
+col7
+Text GLabel 3450 4050 1    60   Input ~ 0
+col6
+Text GLabel 4150 4050 1    60   Input ~ 0
+col5
+Connection ~ 4050 6300
+Connection ~ 2650 5700
+Connection ~ 3350 5700
+Connection ~ 4050 5700
+Connection ~ 2650 5100
+Connection ~ 3350 5100
+Connection ~ 4050 5100
+Connection ~ 2650 4500
+Connection ~ 3350 4500
+Connection ~ 4050 4500
+Wire Wire Line
+	3350 6300 4050 6300
+Wire Wire Line
+	4050 6300 4750 6300
+Wire Wire Line
+	1950 5700 2650 5700
+Wire Wire Line
+	2650 5700 3350 5700
+Wire Wire Line
+	3350 5700 4050 5700
+Wire Wire Line
+	4050 5700 4750 5700
+Wire Wire Line
+	1950 5100 2650 5100
+Wire Wire Line
+	2650 5100 3350 5100
+Wire Wire Line
+	3350 5100 4050 5100
+Wire Wire Line
+	4050 5100 4750 5100
+Wire Wire Line
+	1950 4500 2650 4500
+Wire Wire Line
+	2650 4500 3350 4500
+Wire Wire Line
+	3350 4500 4050 4500
+Wire Wire Line
+	4050 4500 4750 4500
+Wire Wire Line
+	1350 4050 1350 4200
+Wire Wire Line
+	2050 4050 2050 4200
+Wire Wire Line
+	4150 4050 4150 4200
+Wire Wire Line
+	3450 4050 3450 4200
+Wire Wire Line
+	2750 4050 2750 4200
+Connection ~ 1350 4200
+Wire Wire Line
+	1350 4200 1350 4800
+Connection ~ 1350 4800
+Wire Wire Line
+	1350 4800 1350 5400
+Connection ~ 2050 4200
+Wire Wire Line
+	2050 4200 2050 4800
+Connection ~ 2050 4800
+Wire Wire Line
+	2050 4800 2050 5400
+Connection ~ 2750 4200
+Wire Wire Line
+	2750 4200 2750 4800
+Connection ~ 2750 4800
+Wire Wire Line
+	2750 4800 2750 5400
+Connection ~ 2750 5400
+Wire Wire Line
+	2750 5400 2750 6000
+Connection ~ 3450 4200
+Wire Wire Line
+	3450 4200 3450 4800
+Connection ~ 3450 4800
+Wire Wire Line
+	3450 4800 3450 5400
+Connection ~ 3450 5400
+Wire Wire Line
+	3450 5400 3450 6000
+Connection ~ 4150 4200
+Wire Wire Line
+	4150 4200 4150 4800
+Connection ~ 4150 4800
+Wire Wire Line
+	4150 4800 4150 5400
+Connection ~ 4150 5400
+Wire Wire Line
+	4150 5400 4150 6000
+NoConn ~ 8375 1575
+NoConn ~ 8375 1675
+NoConn ~ 8375 1975
+NoConn ~ 8375 2075
+Wire Wire Line
+	4750 6300 5000 6300
+Wire Wire Line
+	5000 6300 5000 3050
+Wire Wire Line
+	5000 3050 4725 3050
+Connection ~ 4750 6300
+Connection ~ 4725 3050
+Wire Wire Line
+	4750 5700 5250 5700
+Wire Wire Line
+	5250 5700 5250 2450
+Wire Wire Line
+	5250 2450 4725 2450
+Connection ~ 4750 5700
+Connection ~ 4725 2450
+Wire Wire Line
+	4750 5100 5500 5100
+Wire Wire Line
+	5500 5100 5500 1850
+Wire Wire Line
+	5500 1850 4725 1850
+Connection ~ 4750 5100
+Connection ~ 4725 1850
+Wire Wire Line
+	4750 4500 5750 4500
+Wire Wire Line
+	5750 4500 5750 1250
+Wire Wire Line
+	5750 1250 4725 1250
+Connection ~ 4750 4500
+Connection ~ 4725 1250
+Wire Wire Line
+	1075 1250 1925 1250
+Wire Wire Line
+	1075 1850 1925 1850
+Connection ~ 1925 2450
+Wire Wire Line
+	1075 2450 1925 2450
+Text GLabel 9775 2575 2    47   Input ~ 0
+col6
+Text GLabel 9775 2675 2    47   Input ~ 0
+col7
+Text GLabel 8375 2575 0    47   Input ~ 0
+col8
+Text GLabel 8375 2675 0    47   Input ~ 0
+col9
+$EndSCHEMATC

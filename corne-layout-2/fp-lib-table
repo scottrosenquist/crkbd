@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name MX_Only)(type KiCad)(uri /home/scott/Source/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri /home/scott/Source/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri /home/scott/Source/foostan-keyboard-parts/kicad-footprints/kbd.pretty)(options "")(descr ""))
+)
